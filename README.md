@@ -1,11 +1,13 @@
-# S32K144 기반 MCU 자동차 제어 시스템 구현
+# S32K144 Based Automotive Control System
+
+## Implementation of an MCU-based system for DC motor control using NXP S32K144
 
 ## 1. 프로젝트 개요 (Overview)
 
 * **과목:** 경북대학교 전자공학부 '마이크로프로세서설계실험' 팀 프로젝트 (2인 팀)
 * **플랫폼:** NXP S32K144 MCU
 * **목표:** MCU의 다양한 페리페럴(GPIO, ADC, PWM, Timer Interrupt 등)을 활용하여 실시간으로 DC 모터의 속도 및 방향을 제어하고, 7세그먼트로 속도를 표시하는 자동차 제어 시스템 구현.
-* **나의 기여:** PWM 신호 채널 설계, 7세그먼트 LED 출력 오류 수정, 개발 편의성을 위한 `port.h` 헤더 파일 작성, 버튼 입력 관련 인터럽트 문제 해결 등 주요 기능 구현에 기여.
+* **나의 기여:** 정밀한 속도 제어를 가능하게 하는 PWM 신호 채널 설계, 현제 속도 및 상태를 표시하기 위한 7세그먼트 LED 출력 오류 수정, 코드 재사용성 및 이식성 향상을 위한 `port.h` 헤더 파일 작성, 버튼 입력 관련 인터럽트 문제 해결 등 주요 기능 구현에 기여.
 
 ## 2. 주요 기능 (Key Features)
 

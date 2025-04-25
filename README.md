@@ -31,7 +31,12 @@
 * **MCU Peripherals:** S32K144 (GPIO Input/Output & Interrupt, FTM for PWM, ADC, LPIT for Timer Interrupt)
 * **Concepts:** Real-time Control, Interrupt Handling (NVIC), Clock Configuration, Hardware Abstraction (`port.h`)
 
-## 5. (향후 README 업데이트 예정)
+## 5. 작동 시연 (Demo Video)
+
+[![S32K144 자동차 제어 시스템 데모 영상](https://img.youtube.com/vi/b7nBCa_eMpU/0.jpg)](https://youtu.be/m-b0-jh9N6o)
+
+
+## 6. (향후 README 업데이트 예정)
 
 * 소스 코드 상세 설명 (Source Code Explanation)
 * 빌드 및 실행 방법 (Build & Usage)
